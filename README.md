@@ -1,6 +1,6 @@
 # UnityWSMultiScreen(uWS2)
 
-=*=*= This project is unfinished =*=*=
+=== This project is unfinished ===
 
 ## Description
 This is unity use multiwindow with WebSocket test.
