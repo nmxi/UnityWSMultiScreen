@@ -1,1 +1,6 @@
-# UnityWSMultiScreen
+# UnityWSMultiScreen(uWS2)
+
+## Description
+This is unity use multiwindow with WebSocket test.
+Default unity can only multiwindow then multiscreen.
+uWS2 break down they restrictions.
