@@ -1,11 +1,11 @@
-# UnityWSMultiScreen(uWMultiScreen)
+# UnityWSMultiScreen(uWM)
 
 === This project is unfinished ===
 
 ## Description
 This is unity use multiwindow with WebSocket test.
 Default unity can only multiwindow then multiscreen.
-uWSMultiScreen break down they restrictions.
+uWM break down they restrictions.
 
 ## Deveropment Environment
 Unity 20181.5f1
