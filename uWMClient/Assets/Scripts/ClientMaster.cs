@@ -23,14 +23,15 @@ public class ClientMaster : MonoBehaviour {
     private void Awake() {
         //_nowPhase = SyncPhase.Idling;
 
-        var ca = "ws://" + _serverAddress + ":" + _port.ToString();
+        var ca = "ws://" + _serverAddress + ":" + _port.ToString() + "/";
         Debug.Log("Connect to " + ca);
         ws = new WebSocket(ca);
 
         //Add Events
         //On catch message event
         ws.OnMessage += (object sender, MessageEventArgs e) => {
-            print(e.Data);
+            //print(e.Data);
+            ReceiveBuffer.strBuffer = (e.Data);
         };
 
         //On error event
